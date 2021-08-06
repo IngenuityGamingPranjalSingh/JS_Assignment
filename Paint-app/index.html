@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>JavaScript Paint App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+<div class="wholeBox">
+    <div class="toolbar">
+        <a class="selected" href="#" id="brush" onclick="ChangeTool('brush')"><i class="fas fa-paint-brush"></i></a>
+        <a href="#" id="line" onclick="ChangeTool('line')"><i class="fas fa-pencil-ruler"></i></a>
+        <a href="#" id="rectangle" onclick="ChangeTool('rectangle')"><i class="far fa-square"></i></a>
+        <a href="#" id="circle" onclick="ChangeTool('circle')"><i class="fas fa-drafting-compass"></i></a>
+        <a href="#" id="ellipse" onclick="ChangeTool('ellipse')"><i class="fas fa-egg"></i></a>
+        <a href="#" id="polygon" onclick="ChangeTool('polygon')"><i class="fas fa-draw-polygon"></i></a>
+    </div><br>
+    <canvas id="my-canvas" width="500" height="500"></canvas>
+    <div id="img-data-div">
+        <a href="#" id="img-file" download="image.png">Download Image</a>
+    </div>
+
+</div>
+</body>
+
+</html>

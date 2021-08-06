@@ -1,0 +1,44 @@
+.wholeBox {
+    max-width: 750px;
+    margin: auto;
+    font-family: "Roboto", Arial, Helvetica;
+}
+
+.toolbar {
+    width: 100%;
+    background-color: #1a5c57;
+    overflow: auto;
+}
+
+.toolbar a {
+    float: left;
+    width: 15.3%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.toolbar a:hover {
+    background-color: rgb(205, 243, 69);
+}
+
+.selected {
+    background-color: black;
+}
+
+#my-canvas {
+    width: 100%;
+    border: 2px solid black;
+}
+
+#img-data-div {
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+}
+
+.toolbar a i {
+    max-width: 100%;
+    height: auto;
+}
